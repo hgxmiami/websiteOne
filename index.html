@@ -96,52 +96,93 @@
 
   <div class="container">
     <div class="section">
-
-      <div class="row">
+        <div class="row">
         <div class="col s12 m6 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
           <p class="center light">We are located in Miami, Fl. 305-999-8899. 7757 W. Flager Street.</p>
-          </div>
+        </div>
         <div  class="col s12 m6">
-          <form>
+          <form action="http://www.swolebrain.com:4003/email">
+            
             <div class="row">
-                <div class="col m3 offset-m3">
-            <input type="text"
-                   name="First Name"
-                   id="first-name">
-              <label for="first-name">First Name</label>
+                
+                <div class="input-field col m6">
+                    <input type="text"
+                           name="Full Name"
+                           id="Full-Name">
+                    <label for="Full Name">Full Name</label>
                 </div>
-                 
-                <div class="col m3 offset-m3">
-            <input type="text"
-                   name="Last Name"
-                   id="last-name">
-              <label for="last-name">Last Name</label>
+                
+                 <div class="input-field col m6">
+                    <input type="text"
+                           name="Phone Number"
+                           id="phone-number">
+                    <label for="phone-number">Phone Number</label>
                 </div>
-              </div>  
+              
+            <div class="input-field col m6">
+                    <input type="text"
+                           name="E-Mail"
+                           id="E-Mail">
+                    <label for="E-Mail">Email</label>
+                </div>
+             <div class="input-field col m6">
+                    <input type="text"
+                           name="Subject"
+                           id="Subject">
+                    <label for="Subject">Subject</label>
+             </div>
+             <div class="input-field col m6">
+                    <input type="text"
+                           name="Time"
+                           id="Time">
+                    <label for="Time">Time</label>
+             </div>
+             <div class="input-field col m12">
+                    <input type="text"
+                           name="Message"
+                           id="Message">
+                    <label for="Message">Message</label>
+             </div>    
+            </div>  
+              
+              <label>What time of day do you prefer to be called?</label>
+              <select class="browser-default">
+                  <option value="" disabled selected>Choose your option</option>
+                  <option value="1">A.M</option>
+                  <option value="2">P.M</option>
+                  <option value="3">After Hours...</option>
+              </select>
+              
+              
               <div class="row">
                   <div class="col m3 offset-m3">
-             
-              
-              <input type="radio" 
-                     value="male"
-                     name="gender" 
-                     id="male-gender"> 
-              <label for="male-gender">Male</label></form>
-          </div>
+                      <input type="radio"
+                             value="male"
+                             name="gender"
+                             id="male-gender">
+                      <label for="male-gender">Male</label></form>
+              </div>
           <div class="col m3 offset-m3">
-            <input  type="radio" 
+              <input type="radio"
                      value="female"
                      name="gender" 
-                     id="female-gender"> 
+                     id="female-gender">
               <label for="female-gender">Female</label></form>
-            </div>
-            </div>
-            </div>
-            </form></div>
+              </div>
+          </div>
+        
+            <div class="row">
+            <div class="col s12">
+                <input type="submit"
+                       value="submit"
+                       name="click here">
+                </div>
         </div>
-
+      
+    </div>
+      </div>
     </div>
   </div>
 
