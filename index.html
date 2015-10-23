@@ -103,116 +103,97 @@
         </div>
         <div  class="col s12 m6 center">
           <h3><i class="material-icons red-text">perm_phone_msg</i></h3>
-            
-          <h4>Let <em> US </em> Contact You!</h4>
-          
+            <h4>Let <em> US </em> Contact You!</h4>
             <form action="http://www.swolebrain.com:4003/email"
                   method="post">
-            
-                       
-            <div class="row">
-                
-                <div class="input-field col m6">
-                    <i class="material-icons prefix">perm_contact_calendar</i>
-                    <input type="text"
-                           name="Full_Name"
-                           id="Full_Name">
-                    <label for="Full_Name">Full Name</label>
+                <div class="row">
+                    <div class="input-field col m6">
+                        <i class="material-icons prefix">perm_contact_calendar</i>
+                        <input type="text"
+                               name="Full_Name"
+                               id="Full_Name">
+                        <label for="Full_Name">Full Name</label>
+                    </div>
+                    <div class="input-field col m6">
+                        <i class="material-icons prefix">phone</i>
+                        <input type="text"
+                               name="Phone_Number"
+                               id="phone_number">
+                        <label for="phone_number">Phone Number</label>
+                    </div>
+                    <div class="input-field col m6">
+                        <i class="material-icons prefix">email</i>
+                        <input type="text"
+                               name="E-Mail"
+                               id="E-Mail">
+                        <label for="E-Mail">Email</label>
+                    </div>
+                    <div class="input-field col m6">
+                        <i class="material-icons prefix">warning</i>
+                        <input type="text"
+                               name="Subject"
+                               id="Subject">
+                        <label for="Subject">Subject</label>
+                    </div>
+                    <div class="input-field col m6">
+                        <i class="material-icons prefix">snooze</i>
+                        <input type="text"
+                               name="Time"
+                               id="Time">
+                        <label for="Time">Time</label>
+                    </div>
+                    <div class="input-field col m12">
+                        <i class="material-icons prefix">new_releases</i>
+                        <input type="text"
+                               name="Message"
+                               id="Message">
+                        <label for="Message">Message</label>
+                    </div>
+                    <div class="row hidden">
+                        <div class="input-field col m6">
+                            <input type="text"
+                                   name="dest_email"
+                                   value="hgxmiami@aol.com"
+                                   id="Destination_Email">
+                            <label for="Destination_Email">Destination_Email</label>
+                        </div>
+                    </div>
                 </div>
-                
-                 <div class="input-field col m6">
-                     <i class="material-icons prefix">phone</i>
-                     <input type="text"
-                           name="Phone_Number"
-                           id="phone_number">
-                    <label for="phone_number">Phone Number</label>
-                </div>
-              
-            <div class="input-field col m6">
-                <i class="material-icons prefix">email</i>    
-                <input type="text"
-                           name="E-Mail"
-                           id="E-Mail">
-                    <label for="E-Mail">Email</label>
-                </div>
-             <div class="input-field col m6">
-                 <i class="material-icons prefix">warning</i>    
-                 <input type="text"
-                           name="Subject"
-                           id="Subject">
-                    <label for="Subject">Subject</label>
-             </div>
-             <div class="input-field col m6">
-                 <i class="material-icons prefix">snooze</i>    
-                 <input    type="text"
-                           name="Time"
-                           id="Time">
-                    <label for="Time">Time</label>
-             </div>
-            
-             <div class="input-field col m12">
-                 <i class="material-icons prefix">new_releases</i>    
-                 <input type="text"
-                           name="Message"
-                           id="Message">
-                    <label for="Message">Message</label>
-                 
-             </div> 
-                
-                <div class="row hidden">
-                <div class="input-field col m6">
-                  <input type="text"
-                         name="dest_email"
-                         value="hgxmiami@aol.com"
-                         id="Destination_Email">
-                  <label for="Destination_Email">Destination_Email</label>
-                         
-                </div>
-                </div>
-              
-            </div>  
-              
                 <label>What time of day do you prefer to be called?</label>
-              <select class="browser-default">
-                  <option value="" disabled selected>Choose your option</option>
-                  <option value="1">A.M</option>
-                  <option value="2">P.M</option>
-                  <option value="3">After Hours...</option>
-              </select>
-              
-              
-              <div class="row">
-                  <div class="col m3 offset-m3">
-                      <input type="radio"
-                             value="male"
-                             name="gender"
-                             id="male-gender">
-                      <label for="male-gender">Male</label>
-              </div>
-          <div class="col m3 offset-m3">
-              <input type="radio"
-                     value="female"
-                     name="gender" 
-                     id="female-gender">
-              <label for="female-gender">Female</label>
-              </div>
-          </div>
-        
-            <div class="row">
-            <div class="col s12">
-                <input type="submit"
-                       value="submit"
-                       name="click here">
-                </div>  
-                               
-             
-                </form>                
+                <select class="browser-default">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">A.M</option>
+                    <option value="2">P.M</option>
+                    <option value="3">After Hours...</option>
+                </select>
+                <div class="row">
+                    <div class="col m3 offset-m3">
+                        <input type="radio"
+                               value="male"
+                               name="gender"
+                               id="male-gender">
+                        <label for="male-gender">Male</label>
+                    </div>
+                    <div class="col m3 offset-m3">
+                        <input type="radio"
+                               value="female"
+                               name="gender" 
+                               id="female-gender">
+                        <label for="female-gender">Female</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <input type="submit"
+                               value="submit"
+                               name="click here">
+                    </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      
-    </div>
       </div>
     </div>
-  </div>
 
 
   <div class="parallax-container valign-wrapper">
