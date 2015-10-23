@@ -106,22 +106,24 @@
             
           <h4>Let <em> US </em> Contact You!</h4>
           
-            <form action="http://www.swolebrain.com:4003/email">
+            <form action="http://www.swolebrain.com:4003/email"
+                  method="post">
             
+                       
             <div class="row">
                 
                 <div class="input-field col m6">
                     <i class="material-icons prefix">perm_contact_calendar</i>
                     <input type="text"
-                           name="Full Name"
-                           id="Full-Name">
-                    <label for="Full Name">Full Name</label>
+                           name="Full_Name"
+                           id="Full_Name">
+                    <label for="Full_Name">Full Name</label>
                 </div>
                 
                  <div class="input-field col m6">
                      <i class="material-icons prefix">phone</i>
                      <input type="text"
-                           name="Phone Number"
+                           name="Phone_Number"
                            id="phone-number">
                     <label for="phone-number">Phone Number</label>
                 </div>
@@ -142,17 +144,27 @@
              </div>
              <div class="input-field col m6">
                  <i class="material-icons prefix">snooze</i>    
-                 <input type="text"
+                 <input    type="text"
                            name="Time"
                            id="Time">
                     <label for="Time">Time</label>
              </div>
-             <div class="input-field col m12">
+            
+             <div class="input-field col m6">
+                  <input type="text"
+                         name="Destination_Email"
+                         id="Destination_Email">
+                  <label for="Destination_Email">Destination_Email</label>
+                         
+                </div>
+             
+            <div class="input-field col m12">
                  <i class="material-icons prefix">new_releases</i>    
                  <input type="text"
                            name="Message"
                            id="Message">
                     <label for="Message">Message</label>
+                 
              </div>    
             </div>  
               
@@ -171,14 +183,14 @@
                              value="male"
                              name="gender"
                              id="male-gender">
-                      <label for="male-gender">Male</label></form>
+                      <label for="male-gender">Male</label>
               </div>
           <div class="col m3 offset-m3">
               <input type="radio"
                      value="female"
                      name="gender" 
                      id="female-gender">
-              <label for="female-gender">Female</label></form>
+              <label for="female-gender">Female</label>
               </div>
           </div>
         
@@ -187,7 +199,10 @@
                 <input type="submit"
                        value="submit"
                        name="click here">
-                </div>
+                </div>  
+                               
+             
+                </form>                
         </div>
       
     </div>
