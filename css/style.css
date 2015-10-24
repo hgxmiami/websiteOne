@@ -77,11 +77,11 @@ footer.page-footer {
 }
 /* label color */
 .input-field label {
- color: #b71c1c;
+ color: black;
 }
 /* label focus color */
 .input-field input[type=text]:focus + label {
- color: #039be5;
+ color: #b71c1c;
 }
 /* label underline focus color */
 .input-field input[type=text]:focus {
@@ -102,4 +102,20 @@ footer.page-footer {
 .input-field .prefix.active {
  color: #7e57c2 ;
 }
-        
+[type="radio"]:checked + label:after {
+  border-radius: 50%;
+  border: 2px solid #1b5e20;
+  background-color: #1b5e20;
+  z-index: 0;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02); }    
+a {
+  color: #d50000;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+a:hover { 
+    background-color: yellow;
+}
