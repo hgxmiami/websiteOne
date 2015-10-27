@@ -77,11 +77,11 @@ footer.page-footer {
 }
 /* label color */
 .input-field label {
- color: red;
+ color: blue;
 }
 /* label focus color */
 .input-field input[type=text]:focus + label {
- color: #01579b;
+ color: #b71c1c;
 }
 /* label underline focus color */
 .input-field input[type=text]:focus {
@@ -120,8 +120,13 @@ a:hover {
     background-color: yellow;
 }
 .bordered-table  {
-    width: 2px;
-    padding: 80px solid black;
-    border: 3px solid yellow;
-    margin: 15px;
+    background-color: aliceblue;
+    width: 5px;
+    padding: 5px solid black;
+    border: 5px solid silver;
+    margin: 5px;
+}
+.panda {
+    font-family:'Verdana',sans-serif;
+    font-size:22px;
 }
