@@ -119,3 +119,9 @@ a {
 a:hover { 
     background-color: yellow;
 }
+.bordered-table  {
+   
+    padding: 2px solid black;
+    border: 2px solid navy;
+    
+}
