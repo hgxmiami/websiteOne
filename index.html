@@ -2,7 +2,13 @@
 <!DOCTYPE html>
 
 <script>
-    function test(thing){thing.style.visibility="hidden";}
+    var currentBanner = 0;
+    function test(){var banner = "banner-" + currentBanner; 
+                    document.getElementById(banner).style.display="none";
+                    currentBanner = (currentBanner + 1) %3;
+                    banner="banner-" + currentBanner;
+                    document.getElementById(banner).style.display="block"}
+    
 </script>
 
 <html lang="en">
@@ -59,7 +65,8 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block"
-               onclick="test(this)">
+               id="banner-0"
+               onclick="test()">
             <h2 class="center brown-text"><i class="material-icons">translate</i></h2>
             <h5 class="center">Speeds up development</h5>
 
@@ -69,7 +76,9 @@
 
         <div class="col s12 m4">
           <div class="icon-block"
-               onclick="test(this)">
+               id="banner-1"
+               onclick="test()"
+               >
             <h2 class="center brown-text"><i class="material-icons">trending_down</i></h2>
             <h5 class="center">User Experience Focused</h5>
 
@@ -79,7 +88,8 @@
 
         <div class="col s12 m4">
           <div class="icon-block"
-               onclick="test(this)">
+               id="banner-2"
+               onclick="test()">
             <h2 class="center brown-text"><i class="material-icons">receipt</i></h2>
             <h5 class="center">Easy to work with</h5>
 
@@ -132,48 +142,42 @@
             <form action="http://www.swolebrain.com:4003/email"
                   method="post">
                 <div class="row">
-                    <div class="input-field col m6 bordered-table panda"
-                         onclick="test(this)">
+                    <div class="input-field col m6 bordered-table panda">
                         <i class="material-icons prefix">perm_contact_calendar</i>
                         <input type="text"
                                name="Full_Name"
                                id="Full_Name">
                         <label for="Full_Name">Full Name</label>
                     </div>
-                    <div class="input-field col m6 bordered-table panda"
-                         onclick="test(this)">
+                    <div class="input-field col m6 bordered-table panda">
                         <i class="material-icons prefix">phone</i>
                         <input type="text"
                                name="Phone_Number"
                                id="phone_number">
                         <label for="phone_number">Phone Number</label>
                     </div>
-                    <div class="input-field col m6 bordered-table panda"
-                         onclick="test(this)">
+                    <div class="input-field col m6 bordered-table panda">
                         <i class="material-icons prefix">email</i>
                         <input type="text"
                                name="E-Mail"
                                id="E-Mail">
                         <label for="E-Mail">Email</label>
                     </div>
-                    <div class="input-field col m6 bordered-table panda"
-                         onclick="test(this)">
+                    <div class="input-field col m6 bordered-table panda">
                         <i class="material-icons prefix">warning</i>
                         <input type="text"
                                name="Subject"
                                id="Subject">
                        <label for="Subject">Subject</label>
                     </div>  
-                    <div class="input-field col m6 bordered-table"
-                         onclick="test(this)">
+                    <div class="input-field col m6 bordered-table">
                         <i class="material-icons prefix">snooze</i>
                         <input type="text"
                                name="Time"
                                id="Time">
                         <label for="Time">Time</label>
                     </div>
-                    <div class="input-field col m12 bordered-table panda"
-                         onclick="test(this)">
+                    <div class="input-field col m12 bordered-table panda">
                         <i class="material-icons prefix">new_releases</i>
                         <input type="text"
                                name="Message"
