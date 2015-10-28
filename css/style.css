@@ -131,8 +131,8 @@ a:hover {
     font-size:22px;
 }
 .bordersbook {
-    background-color: cornsilk;
+    background-color: ;
     width: 2px;
     padding: 5px solid black;
     border: 2px solid red;
-    margin: 1px;
+    margin: 0px;
