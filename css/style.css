@@ -130,3 +130,9 @@ a:hover {
     font-family:'Verdana',sans-serif;
     font-size:22px;
 }
+.bordersbook {
+    background-color: cornsilk;
+    width: 2px;
+    padding: 5px solid black;
+    border: 2px solid red;
+    margin: 1px;
