@@ -77,11 +77,11 @@ footer.page-footer {
 }
 /* label color */
 .input-field label {
- color: blue;
+ color: red;
 }
 /* label focus color */
 .input-field input[type=text]:focus + label {
- color: #b71c1c;
+ color: #01579b;
 }
 /* label underline focus color */
 .input-field input[type=text]:focus {
@@ -120,13 +120,29 @@ a:hover {
     background-color: yellow;
 }
 .bordered-table  {
+<<<<<<< HEAD
+<<<<<<< HEAD
     background-color: aliceblue;
-    width: 5px;
-    padding: 5px solid black;
-    border: 5px solid silver;
-    margin: 5px;
+    width: 2px;
+    padding: 2px solid black;
+    border: 2px solid silver;
+    margin: 2px;
 }
-.panda {
-    font-family:'Verdana',sans-serif;
-    font-size:22px;
+.fontnow {
+    font-family: cursive;
+    font-size: 32px;
 }
+
+
+=======
+=======
+>>>>>>> parent of cd1e806... update
+    width: 2px;
+    padding: 80px solid black;
+    border: 3px solid yellow;
+    margin: 15px;
+}
+<<<<<<< HEAD
+>>>>>>> parent of cd1e806... update
+=======
+>>>>>>> parent of cd1e806... update
