@@ -119,14 +119,7 @@ a {
 a:hover { 
     background-color: yellow;
 }
-.bordered-table  {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background-color: aliceblue;
-    width: 2px;
-    padding: 2px solid black;
-    border: 2px solid silver;
-    margin: 2px;
+
 }
 .fontnow {
     font-family: cursive;
@@ -146,3 +139,24 @@ a:hover {
 >>>>>>> parent of cd1e806... update
 =======
 >>>>>>> parent of cd1e806... update
+
+.bordered-table  {
+    background-color: azure;
+    width: 3px;
+    padding: 5px solid white;
+    border: 1px solid green;
+    margin: 5px;
+}
+
+.panda {
+    font-family: cursive;
+    font-type: serif;
+    color: chartreuse;
+    font-size: 25px;
+    font-weight: 200;
+}
+.nuts {
+    font-family: fantasy;
+    color: chocolate;
+    font-size: 10px;
+    font-weight: 50;
